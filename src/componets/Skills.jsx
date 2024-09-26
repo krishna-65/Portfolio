@@ -1,6 +1,6 @@
 import HTML_image from "../assets/icons/HTML.png";
 import CSS_image from "../assets/icons/CSS.png";
-import Javascript_image from "../assets/icons/javascript.svg";
+import Javascript_image from "../assets/icons/Javascript.svg";
 import React_image from "../assets/icons/react.svg";
 import Redux_image from "../assets/icons/Redux.svg";
 import Tailwind_image from "../assets/icons/Tailwind.png";
