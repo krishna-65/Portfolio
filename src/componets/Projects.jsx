@@ -6,10 +6,21 @@ import project1 from '../assets/project_images/project1.png';
 import project2 from '../assets/project_images/project2.png'
 import project3 from '../assets/project_images/project3.png'
 import project4 from '../assets/project_images/project4.png'
+import project5 from '../assets/project_images/project5.png'
 const Projects = () => {
 
     const data = [
-        {id:1,
+        {
+            id:1,
+            title:"Movie Ticket Booking Website",
+            expertise:"Full-Stack Project",
+            description: "It's a full-stack project in which for admin and for user have a separate dashboard after login. You can checkitout on links. It is live available",
+
+            image: project5,
+            github_link: "https://github.com/krishna-65/Movie-Ticket-Booking",
+            website_link: "https://movie-ticket-booking-3tgt.onrender.com/"
+        },
+        {id:2,
             title: 'TOTC-Edtech Platform ',
             expertise:"Frontend Project",
             description: "It's a Frontend of Ed-Tech Platform with user-experience",
@@ -17,7 +28,7 @@ const Projects = () => {
             github_link: "https://github.com/krishna-65/TOTC-Online-Learnig-Platform.git",
             website_link: "https://krishnatotcedtechplatform.netlify.app/"
         },
-        {id:2,
+        {id:3,
             title: 'Razorpay UI CLone',
             expertise:"UI Project",
             description: "It's a UI of Razorpay website with user-experience",
@@ -25,7 +36,7 @@ const Projects = () => {
             github_link: "https://github.com/krishna-65/Razorpay-UI.git",
             website_link: "https://krishnarazorpayuiclone.netlify.app/"
         },
-        {id:3,
+        {id:4,
             title: 'whether Website',
             expertise:"Frontend Project",
             description: "It's  a wheather project and fetching data from API",
@@ -34,7 +45,7 @@ const Projects = () => {
             website_link: "https://krishnaweatheapp.netlify.app/"
         },
         {
-            id:4,
+            id:5,
             title:"Fashion Website UI",
             expertise:"UI Project",
             description: "It's a simple UI for a fashion website with responsiveness",

@@ -6,7 +6,7 @@ import Redux_image from "../assets/icons/Redux.svg"
 import Aos from 'aos';
 import { useEffect } from 'react';
 import { FaGithubSquare } from 'react-icons/fa';
-import { Link } from 'react-scroll';
+
 const Project = (project)=>{
 
     project = project.project;
