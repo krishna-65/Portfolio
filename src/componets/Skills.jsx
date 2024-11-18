@@ -82,7 +82,7 @@ const Skills = () => {
 
                         {
                             data.map(item => (
-                                <div key={item.id} data-aos="flip-down" className="flex flex-col rounded-md justify-center items-center py-10 hover:scale-125 transition-all duration-100 shadow bg-gradient-to-r form-black to-gray-700 gap-2">
+                                <div key={item.id} data-aos="flip-down" className="flex flex-col rounded-md justify-center items-center py-10 hover:scale-90 transition-all duration-400 shadow bg-gradient-to-r form-black to-gray-700 gap-2">
                                     <img className="w-10 h-10 rounded-full" src={item.image} alt={item.title}/>
                                     <p className="text-lg text-white">{item.title}</p>
                                 </div>

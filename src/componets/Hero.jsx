@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import krishna from "../assets/krishna2.jpg"
+import krishna from "../assets/krishna.jpg"
 import Aos from "aos";
 import { MdOutlineFileDownload } from "react-icons/md";
 import { FaGithubSquare } from "react-icons/fa";

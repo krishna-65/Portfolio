@@ -60,7 +60,7 @@ const Navbar =()=>{
                         {
                             links.map((element, key)=>{
                                 return(
-                                    <a    className={`capitalize
+                                    <a    className={`capitalize hover:text-blue-500
                                         transition-transform duration-500 ease-in-out  hover:cursor-pointer
                                         ${isVisible ? 'translate-y-0 opacity-100 delay-100' : '-translate-y-16 opacity-0'}
                                         `} key={key} href = {element.id}>{element.link}</a>
