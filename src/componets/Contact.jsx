@@ -31,7 +31,7 @@ const Contact = () => {
   return (
     <div className="bg-gradient-to-b from-gray-700 via-black to-gray-700">
       <div className="w-11/12 mx-auto p-10">
-        <h2 className="text-3xl md:text-9xl opacity-40 text-white" data-aos="flip-up">Contact Us</h2>
+        <h2 className="text-3xl md:text-9xl opacity-40 text-white" data-aos="zoom-in">Contact Us</h2>
 
         <form className="w-[90%] mx-auto flex flex-col items-center my-10" data-aos="flip-right" onSubmit={handleSubmit}>
 

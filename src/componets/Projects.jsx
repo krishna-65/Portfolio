@@ -7,9 +7,21 @@ import project2 from '../assets/project_images/project2.png'
 import project3 from '../assets/project_images/project3.png'
 import project4 from '../assets/project_images/project4.png'
 import project5 from '../assets/project_images/project5.png'
+import project6 from '../assets/project_images/project6.png'
+import project7 from '../assets/project_images/project7.png'
 const Projects = () => {
 
     const data = [
+        {
+            id:6,
+            title:"EduElevate",
+            expertise:"Full-Stack Project",
+            description: "It's  a platform for students and educators using the MERN stack.",
+            image: project6,
+            github_link: "https://github.com/krishna-65/EduElevate.git",
+            website_link: "https://eduelevate-1.onrender.com/"
+      
+        },
         {
             id:1,
             title:"Movie Ticket Booking Website",
@@ -19,6 +31,15 @@ const Projects = () => {
             image: project5,
             github_link: "https://github.com/krishna-65/Movie-Ticket-Booking",
             website_link: "https://movie-ticket-booking-3tgt.onrender.com/"
+        },
+        {
+            id:7,
+            title:"Collaborative Code Editor",
+            expertise:"Full-Stack Project",
+            description: "It's a real-time collaborative code editor with WebSockets for simultaneous editing by multiple users.",
+            image: project7,
+            github_link: "https://github.com/krishna-65/Collaborative-Editor.git",
+            website_link: "https://collaborative-editor-qips.onrender.com/"
         },
         {id:2,
             title: 'TOTC-Edtech Platform ',

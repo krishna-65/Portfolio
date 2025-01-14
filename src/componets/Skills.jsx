@@ -55,7 +55,7 @@ const Skills = () => {
               key={item.id}
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.9 }}
-              className="flex flex-col rounded-md justify-center items-center p-6 transition-all duration-400 shadow-lg bg-gradient-to-r from-black to-gray-800 gap-4 hover:shadow-gray-500/50"  data-aos="fade-up"
+              className="flex flex-col rounded-md justify-center items-center p-6 transition-all duration-200 shadow-lg bg-gradient-to-r from-black to-gray-800 gap-4 hover:shadow-gray-500/50"  data-aos="fade-up"
             >
               <div className="relative">
                 <img

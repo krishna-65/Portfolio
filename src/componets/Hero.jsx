@@ -50,7 +50,7 @@ const Hero = () => {
           data-aos="flip-right"
         >
           <a
-            href="/Resume.pdf"
+            href="./Krishnakant_Resume.pdf"
             download="Krishna_Resume.pdf"
             className="hover:scale-110 duration-300 transition-all bg-gradient-to-r from-black to-gray-700 shadow rounded-md text-xl px-10 py-2 font-semibold hover:shadow-lg"
           >
