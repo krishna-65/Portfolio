@@ -10,40 +10,40 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    // emailjs
-    //   .sendForm(
-    //     "service_axbtt7a",  // Replace with your EmailJS Service ID
-    //     "template_1ziboq3",  // Replace with your EmailJS Template ID
-    //     form.current,
-    //     "Rz7W9pVF0HdDryNNL"  // Replace with your EmailJS Public Key
-    //   )
-    //   .then(
-    //     () => {
-    //       setIsSent(true);
-    //       form.current.reset(); // Reset form fields after sending
-    //       toast.success("Message sent successfully! ✅", {
-    //         position: "top-right",
-    //         autoClose: 3000,
-    //         hideProgressBar: false,
-    //         closeOnClick: true,
-    //         pauseOnHover: true,
-    //         draggable: true,
-    //         theme: "dark",
-    //       });
-    //     },
-    //     (error) => {
-    //       console.error("Error sending message:", error);
-    //       toast.error("Failed to send message. Please try again.", {
-    //         position: "top-right",
-    //         autoClose: 3000,
-    //         hideProgressBar: false,
-    //         closeOnClick: true,
-    //         pauseOnHover: true,
-    //         draggable: true,
-    //         theme: "dark",
-    //       });
-    //     }
-    //   );
+    emailjs
+      .sendForm(
+        "service_gq2jbw8",  // Replace with your EmailJS Service ID
+        "template_1iey26g",  // Replace with your EmailJS Template ID
+        form.current,
+        "FGJci8cPG8bwUOzOv"  // Replace with your EmailJS Public Key
+      )
+      .then(
+        () => {
+          setIsSent(true);
+          form.current.reset(); // Reset form fields after sending
+          toast.success("Message sent successfully! ✅", {
+            position: "top-right",
+            autoClose: 3000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            theme: "dark",
+          });
+        },
+        (error) => {
+          console.error("Error sending message:", error);
+          toast.error("Failed to send message. Please try again.", {
+            position: "top-right",
+            autoClose: 3000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            theme: "dark",
+          });
+        }
+      );
   };
 
   return (

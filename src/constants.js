@@ -38,9 +38,9 @@ import webverseLogo from './assets/company_logo/numetry_technologies_logo.jpg';
 import agcLogo from './assets/company_logo/uptoskills_logo.jpg';
 
 // Education Section Logo's
-import glaLogo from './assets/education_logo/gla_logo.png';
-import bsaLogo from './assets/education_logo/bsa_logo.png';
-import vpsLogo from './assets/education_logo/vps_logo.png';
+import srcem from './assets/education_logo/srcem.jpg';
+import stpaul from './assets/education_logo/stpaul.jpg';
+
 
 // Project Section Logo's
 import githubdetLogo from './assets/work_logo/github_det.png';
@@ -142,7 +142,7 @@ export const SkillsInfo = [
   export const education = [
   {
     id: 0,
-    img: null,  // Add your Shriram College logo variable here if available
+    img: srcem,  // Add your Shriram College logo variable here if available
     school: "Shriram College of Engineering And Management",
     date: "June 2021 – June 2025",
     grade: "7.74 CGPA",
@@ -151,7 +151,7 @@ export const SkillsInfo = [
   },
   {
     id: 1,
-    img: null,  // Add your St. Paul Convent logo variable here if available
+    img: stpaul,  // Add your St. Paul Convent logo variable here if available
     school: "St. Paul Convent H.S. School",
     date: "Completed June 2021",
     grade: "91.2%",
